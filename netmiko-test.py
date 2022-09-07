@@ -13,6 +13,6 @@ ssh = ConnectHandler(**cisco_router)
 
 ssh.enable()
 
-result = ssh.send_command('show ip int br')
+result = ssh.send_command('show ip route')
 print (result)
 
