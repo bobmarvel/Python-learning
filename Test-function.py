@@ -1,1 +1,0 @@
-print(f"This is test function")

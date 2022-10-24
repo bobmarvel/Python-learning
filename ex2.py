@@ -12,4 +12,11 @@ def second_addr_function(my_list):
 
 second_addr_function([2,5,7,100])
 
-#через loop
+#через * (variable length args)
+def third_addr_function(*number):
+    total = 0
+    for n in number:
+        total = total + n
+    print(total)
+third_addr_function(42,2,41,2.88)
+    
